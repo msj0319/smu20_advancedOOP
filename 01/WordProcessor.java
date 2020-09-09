@@ -17,19 +17,12 @@ public class WordProcessor {
 
     //특정 확장자 형태로 파일 변환 저장
     public void convertDocTo(String ext) {
-        switch (ext) {
-            case "docx":
-                new DocxDocConverter().save(fileName);
-                break;
-            case "pdf":
-                new PdfDocConverter().save(fileName);
-                break;
-            case "odf":
-                new OdfDocConverter().save(fileName);
-                break;
-            default:
-                System.out.println(ext+"파일 형식을 지원하는 DocConverter가 없습니다");
+        if(docConverters.containsKey(ext)) {
+            DocConverter docValue = docConverters.get(ext);
+            docValue.save(fileName);
         }
+        else
+            System.out.println(ext + "파일 형식을 지원하는 DocConverter가 없습니다");
     }
 
     //SpellChecker 객체 지정
