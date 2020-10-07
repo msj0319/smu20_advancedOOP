@@ -4,8 +4,8 @@ import java.util.ArrayList;
 public class MP05Main {
     public static void main(String[] args) {
         final Point[] RECTANGLE_POINTS = { new Point(100, 150), new Point(150, 100) };
-        final Point[] TRAPEZOID_POINTS = { new Point(200, 150), new Point(280, 150),
-                                           new Point(170, 100), new Point(250, 100) };
+        final Point[] TRAPEZOID_POINTS = { new Point(200, 150), new Point(280, 100),
+                                           new Point(170, 100), new Point(250, 150) };
         final Point[] PARALLELOGRAM_POINTS = { new Point(330, 150), new Point(400, 100),
                                                new Point(300, 100), new Point(430, 150) };
         final Point[] TRIANGLE_POINTS = { new Point(225, 300), new Point(200, 250),

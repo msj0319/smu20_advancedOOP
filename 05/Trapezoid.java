@@ -7,10 +7,10 @@ class Trapezoid extends Shape {
 
     @Override
     public double calcArea() {
-        double area;
-        double upperSide = points[3].x-points[0].x;
-        double lowerSide = points[1].x-points[2].x;
-        double height = points[1].y - points[3].y;
+        double upperSide,lowerSide, height, area;
+        upperSide = points[3].x - points[0].x;
+        lowerSide = points[1].x - points[2].x;
+        height = points[3].y - points[1].y;
         area = (upperSide + lowerSide) * height / 2;
         return area;
     }
