@@ -1,6 +1,6 @@
 public class Sorter {
     Comparable compare;
-    Sorter(Comparable comparable) {
+    public Sorter(Comparable comparable) {
         this.compare = comparable;
     }
     public void setComparable(Comparable comparable) {

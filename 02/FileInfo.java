@@ -6,7 +6,7 @@ public class FileInfo {
     private int size;
     private Date modifiedDate;
 
-    FileInfo(String name, String type, int size, Date modified) {
+    public FileInfo(String name, String type, int size, Date modified) {
         this.name = name;
         this.type = type;
         this.size = size;
