@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa26f75e-1441-41ba-b52e-45834a547ffb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorter.java" afterDir="false" />
-    </list>
+    <list default="true" id="fa26f75e-1441-41ba-b52e-45834a547ffb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,5 +30,15 @@
       <updated>1603208542593</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1603208833850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603208833850" />
+    <state x="551" y="129" key="new project wizard" timestamp="1603208835776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603208835776" />
   </component>
 </project>
